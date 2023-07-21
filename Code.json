@@ -1,0 +1,19 @@
+{
+  "code": [
+    {
+      "teacherID": "1",
+      "teacherName": "John",
+      "number": "1234567"
+    },
+    {
+      "teacherID": "2",
+      "teacherName": "Jane",
+      "number": "7654321"
+    },
+    {
+      "teacherID": "3",
+      "teacherName": "Mike",
+      "number": "9876543"
+    }
+  ]
+}

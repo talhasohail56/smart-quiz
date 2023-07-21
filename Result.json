@@ -1,0 +1,52 @@
+{
+  "user": [
+    {
+      "Name": "jhonny",
+      "Marks": "50",
+      "ObtainMarks": "45",
+      "Date": "2-6-16"
+    },
+    {
+      "Name": "Ayesha",
+      "Marks": "50",
+      "ObtainMarks": "50",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "aslam",
+      "Marks": "50",
+      "ObtainMarks": "36",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "kashan",
+      "Marks": "50",
+      "ObtainMarks": "20",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "Azam",
+      "Marks": "50",
+      "ObtainMarks": "45",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "bilal",
+      "Marks": "50",
+      "ObtainMarks": "50",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "sana",
+      "Marks": "50",
+      "ObtainMarks": "20",
+      "Date": "2-12-12"
+    },
+    {
+      "Name": "ali",
+      "Marks": "50",
+      "ObtainMarks": "40",
+      "Date": "2-12-12"
+    }
+  ]
+}

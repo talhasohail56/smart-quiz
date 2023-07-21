@@ -1,0 +1,213 @@
+.quiz-app-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    background: linear-gradient(70deg, rgb(84, 84, 255), rgb(255, 168, 183));
+  
+  
+  min-height: 100vh;
+  width: 100%;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  width: 700px;
+  background-color: #f8f8fded;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 1px #333;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.question-info {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+.marks-info {
+  font-weight: bold;
+}
+
+.time-info {
+  font-weight: bold;
+}
+
+.question {
+  margin: 8px;
+  box-shadow: 0px 0px 10px 1px #a2a3a3;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  min-width: 90%;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white ;
+}
+
+#question-number {
+  margin-right: 5px;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 15px;
+  width: 85%;
+  padding: 10px;
+}
+
+.option-btn {
+  box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  margin: 5px;
+  min-height: 30px;
+  background-color: white;
+}
+
+.checked {
+  background-color: rgb(179, 83, 179);
+  color: white;
+  box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+}
+
+.option-btn:hover {
+  background-color: rgb(17, 112, 202);
+  color: rgba(255, 255, 255, 0.907);
+}
+
+#next-button {
+  /* padding: 10px; */
+  border: none;
+  background-color: purple;
+  background-color: #276272;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: larger;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.2s;
+  width: 75px;
+  
+  bottom: 9px;
+  margin-right: 18px;
+}
+
+#next-button:active {
+  box-shadow: none;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.result-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.total-score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.time-info {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px rgb(199, 202, 233);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.time-info::before {
+  content: ":";
+  margin-right: 5px;
+  color: #333;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color:rgb(131, 131, 210) ;
+  color: #fff;
+  
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.total-score {
+  font-weight: bold;
+  text-align: center;
+}.result {
+  margin-top: 20px;
+}
+
+
+
+
+th {
+  background-color: #f2f2f2;
+}
+
+.total-score {
+  margin-top: 20px;
+  text-align: center;
+}

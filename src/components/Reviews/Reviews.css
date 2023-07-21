@@ -1,0 +1,52 @@
+.reviews-page {
+    margin: 20px;
+  }
+  
+  .review-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-item {
+    background-color: #f7f7f7f6; /* Cream white color */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    border: none; /* Remove the border */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .student-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .comment {
+    margin-bottom: 0;
+  }
+  .student-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .student-details {
+    flex-grow: 1;
+  }
+  .heading{
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-left: 1rem;
+   
+   
+    
+    
+  }

@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "question": "Sun is round",
+      "options": [
+        "Yes",
+        "No",
+        "maybe",
+        "cold"
+      ],
+      "correctAnswer": "cold",
+      "time": "1",
+      "marks": "1",
+      "id": 2
+    },
+    {
+      "question": "6564",
+      "options": [
+        "2",
+        "25462",
+        "224562",
+        "222542"
+      ],
+      "correctAnswer": "2",
+      "time": "1",
+      "marks": "1",
+      "id": 4
+    },
+    {
+      "question": "anas is smiling",
+      "options": [
+        "aa",
+        "bhuihb",
+        "conc",
+        "dhohpphphd"
+      ],
+      "correctAnswer": "aa",
+      "time": "1",
+      "marks": "1",
+      "id": 5
+    },
+    {
+      "question": "whats your name",
+      "options": [
+        "mughira",
+        "xsxs",
+        "xsxsxs",
+        "sxsxs"
+      ],
+      "correctAnswer": "mughira",
+      "time": "3",
+      "marks": "1",
+      "id": 6
+    }
+  ]
+}
